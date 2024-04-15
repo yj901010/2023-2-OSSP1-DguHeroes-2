@@ -1,0 +1,21 @@
+spring:
+  main:
+    allow-bean-definition-overriding: true
+  application:
+    name: jwtRedisProj
+  datasource:
+    url: jdbc:mysql://localhost:3306/testDB
+
+    username: root
+    password: '0000'
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+  jpa:
+    database-platform: org.hibernate.dialect.MySQL8Dialect
+    hibernate:
+      ddl-auto: create
+    properties:
+      hibernate:
+        format_sql: true
+        show_sql: true
+
