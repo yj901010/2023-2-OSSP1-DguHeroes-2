@@ -8,13 +8,13 @@ import java.lang.Record;
 
 @Service
 public class GetDistance {
-    @Value("${security.neo4j.uri}")
+    @Value("neo4j+s://f8fbf000.databases.neo4j.io")
     String neo4jUri;
 
-    @Value("${security.neo4j.user}")
+    @Value("neo4j")
     String neo4jUser;
 
-    @Value("${security.neo4j.password}")
+    @Value("qEqCRw9ODwM0jrJSu0bWkXgk0SWlXJZetVU6pZ0JmwM")
     String neo4jPassword;
 
 //    public static float getDistance(String stack1, String stack2){
